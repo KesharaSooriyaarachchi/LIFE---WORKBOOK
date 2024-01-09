@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Viewport height to make sure the content is centered vertically */
+    margin: 0; /* Remove default margin */
+
+}}
+
+.containercenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfc03;
+    padding: 20px; /* Adding some padding for better visual appearance */
+}
+
+.search-container input[type=text] {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
